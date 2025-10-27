@@ -42,6 +42,12 @@ h2 {
     margin-bottom: 2rem;
 }
 
+.sharp-corners {
+    border-radius: 0;
+}
+
+
+
 /* Buttons */
 
 .custom-button-filled {
@@ -66,6 +72,12 @@ h2 {
     background-color: var(--highlight-color);
     color: white
 }
+
+.sharp-corners {
+    font-weight: bold;
+}
+
+
 
 /* Navbar */
 
@@ -167,6 +179,7 @@ h2 {
     #services .card-body {
         min-height: auto;
     }
+  
 }
 
 /* xl devices (large desktops, 1200px and up) */
@@ -175,6 +188,10 @@ h2 {
     #services .card-body {
         min-height: 220px;
     }
+     .sharp-corners{
+  p
+}
+}
 }
 
 /* xxl devices (larger desktops, 1400px and up) */
@@ -183,4 +200,5 @@ h2 {
     #services .card-body {
         min-height: 195px;
     }
+  
 }
