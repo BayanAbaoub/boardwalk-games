@@ -107,6 +107,7 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Events table */
 #events .table {
     /* events table font size small enough that 
       the table doesn't overflow on xs screens. 
