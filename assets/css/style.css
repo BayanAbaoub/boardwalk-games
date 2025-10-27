@@ -114,6 +114,13 @@ h2 {
     border: none;
 }
 
+/* Game library form */
+
+.narrow-container {
+ 
+    padding: 50px 200px;
+}
+
 /* Footer / contact */
 
 #contact {
@@ -165,11 +172,24 @@ h2 {
 
 /* Media queries */
 
+/*Small devices (phones, 320px and up) */
+@media screen and (min-width: 320px) {
+    /* Make all service cards the same height for consistency */
+    .narrow-container {
+        padding: 20px 20px;
+    }
+}
+
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
     /* Make all service cards the same height for consistency */
     #services .card-body {
         min-height: 191px;
+    }
+
+    .narrow-container {
+        padding-left: 100px;
+        padding-right: 100px;
     }
 }
 
@@ -179,6 +199,12 @@ h2 {
     #services .card-body {
         min-height: auto;
     }
+
+     .narrow-container {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+     
   
 }
 
@@ -188,17 +214,24 @@ h2 {
     #services .card-body {
         min-height: 220px;
     }
-     .sharp-corners{
-  p
+    .narrow-container {
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+     
 }
-}
-}
+
 
 /* xxl devices (larger desktops, 1400px and up) */
 @media screen and (min-width: 1400px) {
     /* make all service cards the same height for consistency */
     #services .card-body {
         min-height: 195px;
+    }
+
+     .narrow-container {
+        padding-left: 250px;
+        padding-right: 250px;
     }
   
 }
